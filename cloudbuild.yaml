@@ -9,3 +9,5 @@ steps:
       - '--os=ubuntu-2204'
       - '--network=projects/host-project-404711/global/networks/host-vpc'
       # Add any additional flags or options as needed
+  pool:
+      name: test
