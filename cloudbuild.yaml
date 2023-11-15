@@ -6,6 +6,6 @@ steps:
       - 'import'
       - 'IMAGE_NAME'
       - '--source-uri=gs://image-18081984/ubuntu-consul-test-stream.vmdk'
-      - '--os=ubunty'
+      - '--os=ubuntu'
       - '--network=projects/host-project-404711/global/networks/host-vpc'
       # Add any additional flags or options as needed
