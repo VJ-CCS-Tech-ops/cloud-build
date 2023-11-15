@@ -5,7 +5,7 @@ steps:
       - 'images'
       - 'import'
       - 'IMAGE_NAME'
-      - '--source-uri=gs://image-18081984/ubuntu-consul-test-stream.vmdk'
+      - '--source-file=gs://image-18081984/ubuntu-consul-test-stream.vmdk'
       - '--os=ubuntu-2204'
       - '--network=projects/host-project-404711/global/networks/host-vpc'
       # Add any additional flags or options as needed
